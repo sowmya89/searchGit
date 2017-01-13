@@ -1,8 +1,4 @@
-// jQuery.githubUser = function(username, callback) {
-//    jQuery.getJSON('https://api.github.com/users/'+username+'/repos?callback=?',callback)
-// }
- 
-
+//prototype object
 jQuery.fn.getRepositories = function(username) {
     this.html("<span><h2>Loading " + username +"'s repositories...</span></h2>");
      
